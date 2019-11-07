@@ -1,0 +1,9 @@
+新建git配置文件
+touch .gitignore
+
+编辑配置文件，添加想要忽略上传的文件名
+.idea
+app
+ocean
+*.txt匹配所谓txt文件
+在忽略的文件下修改文件，然后用git status查看是否有提交，如果没有提交则配置成功
