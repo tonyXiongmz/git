@@ -18,6 +18,7 @@
 
 　　git add [path］ #会把对应目录或文件，添加到stage状态
 　　git add .  #会把当前所有的untrack files和changed but not updated添加到stage状态
+    git add -A上传全部文件
 
 实际上是为修改内容添加index索引。
 
