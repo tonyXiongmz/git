@@ -17,7 +17,7 @@ git init --bare xxx.git
 git clone git@ip地址:/home/git/xxx.git
 
 6、建立服务器web目录
-mkdir -d /home/www可以是任意位置
+mkdir -p /home/www可以是任意位置
 并绑定git用户组
 chown git:git /home/www
 查看文件读写权限，如果不足进行补齐
