@@ -1,0 +1,5 @@
+git init初始化  git status查看状态 git add 提交到暂存区  git commit 提交到本地库  git push 提交到远程库
+1、撤销暂存区的提交
+  git add xxx.txt//提交到暂存区
+  如果想要撤销该提交，执行以下操作
+  git rm --cached xxx.txt
