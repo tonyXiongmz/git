@@ -17,3 +17,8 @@ git init初始化  git status查看状态 git add 提交到暂存区  git commit
   1）hard   git reset --hard 索引  工作区、暂存区、本地库全部后退
   2)soft    git reset --soft 索引  本地库后退  git commit
   3)mixed   git reset --mixed 索引  工作区、本地库后退 git add git commit
+5、删除找回
+   1）前提：删除前已经提交到本地库
+   2）操作： git reset --hard[指针位置]
+        删除操作已经提交到本地库，指针位置指向历史记录
+        删除操作还没有提交本地库，指针位置使用HEAD
