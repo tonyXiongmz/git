@@ -1,0 +1,11 @@
+1、级别权限
+ 1)项目级别/仓库级别：仅在本地仓库范围内有效
+  git config user.name tom
+  git config user.email xiong@163.com
+ 2)系统用户级别：登录当前操作系统的用户范围
+  git config --global user.name tom
+  git config --global user.email xiong@163.com
+ 3)级别优先级
+  就近原则：项目级别优于系统用户级别，如果两者都有则选择项目级别的签名
+   如果只有系统用户级别则选择系统用户签名。
+   两者都没有是不允许的。
