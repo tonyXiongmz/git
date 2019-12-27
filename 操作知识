@@ -3,3 +3,13 @@ git init初始化  git status查看状态 git add 提交到暂存区  git commit
   git add xxx.txt//提交到暂存区
   如果想要撤销该提交，执行以下操作
   git rm --cached xxx.txt
+  
+2、查看提交日志
+  git log  日志的记录
+  git log --pretty=oneline  日志一单条列表的形式显示
+  git reflog  显示恢复到那条日志需要几步HEAD@{number}
+
+3、前进后退
+  1）索引值【推荐】  git reset --hard  索引值
+  2）^只能后退   git reset --hard HEAD^  ^一个代表一步
+  3)~ 只能后退          git reset --hard HEAD~n  n代表后退多少步
