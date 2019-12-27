@@ -22,3 +22,24 @@ git init初始化  git status查看状态 git add 提交到暂存区  git commit
    2）操作： git reset --hard[指针位置]
         删除操作已经提交到本地库，指针位置指向历史记录
         删除操作还没有提交本地库，指针位置使用HEAD
+6、比较差异
+  git diff xxx.txt  比较当前差异，只和暂存区进行比较
+  git diff HEAD XXX.TXT 和本地库比较差异
+  git diff HEAD^ xxx.txt  比较历史记录差异
+  
+ 7、分支操作
+  1）查看分支 git branch -v
+  2）创建分支 git branch 分支名
+  3）切换分支 git checkout 分支名
+  4）合并分支 
+    切换到主分支，
+    git merge 被合并的分支名
+    解决冲突 删除特殊字符，编辑文件到满意的程度，然后重新提交，此处不能带文件名，否则报错
+    
+  8、查看git远程路径
+    git remote -v
+  9、添加远程路径
+    git remote add origin//给远程路径起的别名 http://xxx/xx.git  git远程路径
+   
+  10、
+  
