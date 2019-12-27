@@ -13,3 +13,7 @@ git init初始化  git status查看状态 git add 提交到暂存区  git commit
   1）索引值【推荐】  git reset --hard  索引值
   2）^只能后退   git reset --hard HEAD^  ^一个代表一步
   3)~ 只能后退          git reset --hard HEAD~n  n代表后退多少步
+4、git reset的三个参数
+  1）hard   git reset --hard 索引  工作区、暂存区、本地库全部后退
+  2)soft    git reset --soft 索引  本地库后退  git commit
+  3)mixed   git reset --mixed 索引  工作区、本地库后退 git add git commit
