@@ -39,7 +39,12 @@ git init初始化  git status查看状态 git add 提交到暂存区  git commit
   8、查看git远程路径
     git remote -v
   9、添加远程路径
-    git remote add origin//给远程路径起的别名 http://xxx/xx.git  git远程路径
+    git remote add origin//给远程路径起的别名 http://xxx/xx.git git远程路径
    
-  10、
+  10、git pull 拉取远程库,是git fetchh和git merge的结合
+    1）git fetch [远程分支别名] [远程文件名]
+    2)git merge [远程分支别名]/[远程文件名]
+    3)git pull [远程分支别名] [远程文件名]
+   
+  11、
   
