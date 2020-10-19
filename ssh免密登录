@@ -1,5 +1,7 @@
 1、cd ~ 进入家目录
-2、ssh-keygen -t rsa -C 邮箱  生成一个ssh目录
-3、cd  .ssh/  进入到这个文件，id_rsa,id_rsa.pub两个文件
-4、cat id_rsa.pub  进入该文件，赋值里面的内容，添加到github中
-5、进入工作区进行测试
+2、git config --global user.name "tonyXiong"
+3、git config --global user.email "xiongmz_2006@163.com"
+4、ssh-keygen -t rsa -C 邮箱  生成一个ssh目录
+5、cd  .ssh/  进入到这个文件，id_rsa,id_rsa.pub两个文件
+6、cat id_rsa.pub  进入该文件，赋值里面的内容，添加到github中
+7、进入工作区进行测试
